@@ -1,6 +1,6 @@
 import { getStoredToken } from "./helper.js";
 
-export const backendUrl = 'https://backend-ainotes-production.up.railway.app';
+export const backendUrl = "https://ainotes.cognir.ai/api" // 'https://cognir.ai/api';
 
 export async function saveNote(payload) {
   const token = getStoredToken();
