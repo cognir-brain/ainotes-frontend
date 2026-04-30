@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* custom */
+html, body, #__next { height: 100%; }
+body { background: #f3f4f6; }
+
+.head-tab {
+    background-color: #f3f4f6;
+}
+
+.custom-width {
+    width: 70%;
+    margin: auto;
+}
+
+.tab-detail {
+    justify-content: space-around;
+}
+
+.sidebar {
+    top: 0px !important;
+}
+
+.main-detail {
+    padding-top: 24px;
+}
